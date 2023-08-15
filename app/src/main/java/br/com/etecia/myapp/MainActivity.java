@@ -56,16 +56,16 @@ public class MainActivity extends AppCompatActivity {
                         R.drawable.doismilesessetnaesete));
 
         listaFilmes.add(
-                new Filmes("O Rei da Montanha",
-                        "spoiler: o rei é da montanha",
-                        "aventura/infantil",
-                        R.drawable.rei_montanha));
+                new Filmes("Desejos Ocultos",
+                        "spoiler: O desejo é oculto",
+                        "sci-fi/ação",
+                        R.drawable.desejos));
 
         listaFilmes.add(
-                new Filmes("O Rei da Montanha",
-                        "spoiler: o rei é da montanha",
-                        "aventura/infantil",
-                        R.drawable.rei_montanha));
+                new Filmes("O apocalispe",
+                        "spoiler: o mundo acabou",
+                        "fim do mundo",
+                        R.drawable.apocalipe));
 
         MyAdapter adapter = new MyAdapter(getApplicationContext(),listaFilmes);
 
